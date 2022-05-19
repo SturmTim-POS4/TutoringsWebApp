@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="node_modules/jQuery/tmp/jquery.js"></script>
+    <script src="index.js"></script>
+</head>
+<body style="width: 450px; height: 500px">
+<div class="row">
+    <select id="cbStudents" class="column grow"></select>
+    <div id="divClazzes" class="row">
+    </div>
+</div>
+
+<h1 id="studentName" style="background: aquamarine; text-align: center">Student</h1>
+
+<div class="row">
+    <div class="column grow">
+        <label>Schulstufe:</label>
+        <div id="divSchulstufen" class="border"></div>
+        <br>
+        <label>Fächer:</label>
+        <div id="divSubjects" class="border"></div>
+        <br>
+        <button id="btnAddTutoring">Add</button>
+        <label id="lblMessage"></label>
+    </div>
+    <div class="grow">
+        <label id="lblTutoring">Nachhilfen:</label>
+        <ul id="ulTutorings" style="size: 2px" class="border"></ul>
+    </div>
+</div>
+
+</body>
+</html>

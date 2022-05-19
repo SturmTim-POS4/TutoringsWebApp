@@ -1,0 +1,15 @@
+.row{
+    flex-direction: row;
+    display: flex
+}
+.column{
+    margin: 5px;
+    flex-direction: column;
+    display: flex
+}
+.grow{
+    flex-grow: 10;
+}
+.border{
+    border: 1px solid black;
+}
